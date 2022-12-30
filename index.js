@@ -31,7 +31,7 @@ VS.on('messageCreate', async(message) => {
                 let mainembed = new MessageEmbed()
                     .setColor(config.embed.color)
                     .setDescription(msg)
-                  .setImage('You banner imaeg url') // Image url here dont ask me again .0.
+                  .setImage('https://i.pinimg.com/originals/f3/8d/55/f38d55a7fdcd03d405ffc9182330faa8.gif') // Image url here dont ask me again .0.
                     .setFooter(config.embed.footer)
                 let row = new MessageActionRow()
                     .addComponents(
